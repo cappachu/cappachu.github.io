@@ -2,47 +2,47 @@
 body {
     background-color: #efefef;
     font-family: 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 170%;
     /*monospace;helvetica, serif;palantino;*/
-    letter-spacing: 0.05em;
+    letter-spacing: 0.01em;
 }
 
 .nav {
-  border:none;
-  border-bottom:1px dotted black;
 }
+
 .nav li {
     list-style-type: none;
-    font-size: 20px;
-    padding: 10px 0px;
 }
 
 .section {
   border:none;
-  border-bottom:1px dotted black;
-  padding: 20px 20px;
+  border-top:1px dotted black;
+  padding-top: 0.5em;
 }
 
 .section-title {
-    font-size: 20px;
-    margin: 5px 0px;
+    font-size: 1.8em;
+    color: maroon;
+    margin-bottom: 0.5em;
 }
 
 .item {
-    padding: 5px; 0px;
 }
 
 .item-title {
-    font-weight: bold;
-    margin-bottom: 10px;
-    margin-top: 10px;
+    font-size: 1.1em;
+}
+
+.item-brief {
+    color: black;
+    margin-top: 0.5em;
+    margin-left: 2em;
 }
 
 .item-description {
     color: rgb(136,136,136);
+    margin-left: 2em;
 }
 
-.item-description strong {
-    color: black;
-}
 
 

@@ -10,6 +10,9 @@ layout: default
               <div class="item-title">
                 <a href="{{ project.github_url }}">{{ project.title }}</a>
               </div>
+              <div class="item-brief">
+                {{ project.brief }}
+              </div>
               <div class="item-description">
                 {{ project.content }}
               </div>
