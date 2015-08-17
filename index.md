@@ -17,7 +17,7 @@ layout: default
         <div class="item-brief">
           {{ project.brief }}
         </div>
-        <div class="item-description">
+        <div class="item-content">
           {{ project.content }}
         </div>
       </div>
@@ -33,14 +33,9 @@ layout: default
       <div class="prompt">>></div>
         art
     </div>
-    <div class="items">
-      {% for i in (1..20) %}
-      <div class="item">
-        <div class="item-title"><a href="#">title</a></div>
-        <div class="item-brief">brief</div>
-        <div class="item-description">a description</div>
-      </div>
-      {% endfor %}
-    </div>
+    <!-- <img src="/images/300px-Codanda-appachu-glove_board.jpg">  -->
+    <!-- <img src="/images/400px-Codanda-appachu-chord_key_map.jpg"> -->
+    <!-- <img src="/images/mario_board.jpeg"> -->
+    <!-- <img src="/images/mario_figurine.jpeg"> -->
   </div>
 </div>
