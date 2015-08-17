@@ -30,7 +30,8 @@ body {
 
 .page-content {
     /* below navbar */
-    margin-top: 4em;
+    /*margin-top: 4em;*/
+    padding-top: 70px;
 }
 
 
