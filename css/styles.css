@@ -17,6 +17,10 @@ body {
     font-size: 1.2em;
 }
 
+.nav li {
+    display: inline-block;
+}
+
 .nav li a:link, .nav li a:visited, .nav li a:active{
     color: #636363;
     background-color: #bdbdbd;
@@ -28,10 +32,11 @@ body {
     color: black;
 }
 
+
 .page-content {
     /* below navbar */
     /*margin-top: 4em;*/
-    padding-top: 70px;
+    padding-top: 120px;
 }
 
 
