@@ -1,6 +1,6 @@
 ---
 title: scavenjr 
-brief: an experimental visual web parser (clojure)
+brief: an experimental visual web parser in clojure
 github_url: https://github.com/cappachu/scavenjr
 ---
 

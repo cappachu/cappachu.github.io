@@ -27,11 +27,21 @@ layout: default
 </div>
 
 <div class="section">
-  <div class="anchor" id="art"></div>
+  <div class="anchor" id="wires"></div>
   <div class="container">
     <div class="section-title">
       <div class="prompt">>></div>
-        art
+        wires
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <div class="anchor" id="pixels"></div>
+  <div class="container">
+    <div class="section-title">
+      <div class="prompt">>></div>
+        pixels
     </div>
     <!-- <img src="/images/300px-Codanda-appachu-glove_board.jpg">  -->
     <!-- <img src="/images/400px-Codanda-appachu-chord_key_map.jpg"> -->
