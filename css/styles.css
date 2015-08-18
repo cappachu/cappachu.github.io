@@ -2,75 +2,64 @@
 body {
     background-color: #f0f0f0; /*#efefef;*/
     font-family: 'Helvetica Neue', Helvetica, sans-serif;
-    font-size: 130%;
-    /*monospace;helvetica, serif;palantino;*/
-    letter-spacing: 0.01em;
+    font-size: 18px;
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
 
-.navbar {
-    background-color: #bdbdbd;
+
+.navigation-title {
+    margin: 1em 0;
 }
 
-.nav a {
-    color: #636363;
+.navigation-title a {
+    color: #F74300;
+    font-family: helvetica; 
+    font-size: 40px;
     font-weight: bold;
-    font-size: 1.2em;
+    letter-spacing: 1px;
 }
 
-.nav li {
-    display: inline-block;
-}
-
-.nav li a:link, .nav li a:visited, .nav li a:active{
-    color: #636363;
+.navigation ul {
+    margin: 0;
+    padding: 0;
     background-color: #bdbdbd;
-    font-weight: bold;
-    font-size: 1.2em;
+    border-radius: 0px 0px 12px 12px;
+
 }
 
-.nav li a:hover {
+.navigation-links li {
+    display: inline;
+    font-size: 1.2em;
+    margin-left: 35px;
+}
+.navigation-links li a:link {
     color: black;
 }
-
-
-.page-content {
-    /* below navbar */
-    /*margin-top: 4em;*/
-    padding-top: 120px;
+.navigation-links li a:visited {
+    color: black;
+}
+.navigation-links li a:active {
+    color: black;
+}
+.navigation-links li a:hover {
+    color: black;
 }
 
 
 .prompt {
     color: red;
     display: inline;
+    float: left;
 }
 
-.section {
-  border:none;
-  border-bottom:1px dotted black;
-  padding-top: 0.5em;
-}
-
-/* page local anchors for navbar */
-.section .anchor  {
-    display: block; 
-    position: relative;
-    top: -4em;
-    visibility: hidden;
-}
-
-.section-title {
-    font-size: 1.5em;
-    color: black;
-    margin-bottom: 0.5em;
+.page-content {
+    margin-top: 1em;
 }
 
 .item {
 }
 
-.item-title {
-    font-size: 1.1em;
-}
 
 .item-brief {
     color: black;

@@ -1,51 +1,22 @@
 ---
 layout: default
 ---
-<div class="section">
-  <div class="anchor" id="code"></div>
-  <div class="container">
-    <div class="section-title">
-      <div class="prompt">>></div>
-       code
-    </div>
-    <div class="items">
-      {% for project in site.code | sort:'identifier' %}
-      <div class="item">
-        <div class="item-title">
-          <a href="{{ project.github_url }}">{{ project.title }}</a>
-        </div>
-        <div class="item-brief">
-          {{ project.brief }}
-        </div>
-        <div class="item-content">
-          {{ project.content }}
-        </div>
+<div class="container">
+  <div class="items">
+    {% for project in site.code | sort:'identifier' %}
+    <div class="item">
+      <div class="prompt"> >> &nbsp;&nbsp;</div>
+      <div class="item-title">
+        <a href="{{ project.github_url }}">{{ project.title }}</a>
       </div>
-      {% endfor %}
+      <div class="item-brief">
+        {{ project.brief }}
+      </div>
+      <div class="item-content">
+        {{ project.content }}
+      </div>
     </div>
+    {% endfor %}
   </div>
 </div>
 
-<div class="section">
-  <div class="anchor" id="wires"></div>
-  <div class="container">
-    <div class="section-title">
-      <div class="prompt">>></div>
-        wires
-    </div>
-  </div>
-</div>
-
-<div class="section">
-  <div class="anchor" id="pixels"></div>
-  <div class="container">
-    <div class="section-title">
-      <div class="prompt">>></div>
-        pixels
-    </div>
-    <!-- <img src="/images/300px-Codanda-appachu-glove_board.jpg">  -->
-    <!-- <img src="/images/400px-Codanda-appachu-chord_key_map.jpg"> -->
-    <!-- <img src="/images/mario_board.jpeg"> -->
-    <!-- <img src="/images/mario_figurine.jpeg"> -->
-  </div>
-</div>
